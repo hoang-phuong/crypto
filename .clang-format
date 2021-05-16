@@ -42,7 +42,6 @@ AllowShortFunctionsOnASingleLine: Empty
 AllowShortEnumsOnASingleLine: false
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortBlocksOnASingleLine: Empty
-AccessModifierOffset: -4
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowAllConstructorInitializersOnNextLine: false
 AllowAllArgumentsOnNextLine: false
