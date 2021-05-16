@@ -1,6 +1,6 @@
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required (VERSION 3.2)
 
-project(PCrypto)
+project(PCrypto CXX)
 
 option(RELEASE_BUILD "Build library with release configuration" OFF)
 
@@ -16,3 +16,5 @@ else()
     add_definitions(-DBUILD_TYPE=DEBUG)
     add_subdirectory(test)
 endif()
+
+add_compile_options(-std=c++11 -Wall -Wextra -Werror)
