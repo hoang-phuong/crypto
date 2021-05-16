@@ -1,0 +1,35 @@
+UseTab: Never
+IndentWidth: 4
+ColumnLimit: 150
+AlignConsecutiveBitFields: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignAfterOpenBracket: true
+AlignEscapedNewlines: true
+AlignTrailingComments: true
+BinPackArguments: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterEnum: true
+    AfterStruct: true
+    AfterUnion: true
+    AfterCaseLabel: true
+    AfterFunction: true
+    AfterControlStatement: true
+    AfterNamespace: true
+    BeforeCatch: true
+    BeforeElse: true
+    BeforeLambdaBody: true
+FixNamespaceComments: true
+IncludeBlocks: Preserve
+SortIncludes: true
+InsertTrailingCommas: Wrapped
+PointerAlignment: Left
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatementsExceptForEachMacros
+SpaceBeforeRangeBasedForLoopColon: true
+SpacesBeforeTrailingComments: 1
+SpacesInConditionalStatement: true
+UseCRLF: true
+IndentPPDirectives: AfterHash
