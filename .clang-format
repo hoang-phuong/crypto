@@ -1,3 +1,4 @@
+Standard: c++11
 UseTab: Never
 IndentWidth: 4
 ColumnLimit: 150
@@ -15,6 +16,7 @@ BraceWrapping:
     AfterStruct: true
     AfterUnion: true
     AfterCaseLabel: true
+    AfterClass: true
     AfterFunction: true
     AfterControlStatement: true
     AfterNamespace: true
@@ -33,3 +35,16 @@ SpacesBeforeTrailingComments: 1
 SpacesInConditionalStatement: true
 UseCRLF: true
 IndentPPDirectives: AfterHash
+EmptyLineBeforeAccessModifier: Always
+AllowShortLambdasOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Empty
+AccessModifierOffset: -4
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowAllConstructorInitializersOnNextLine: false
+AllowAllArgumentsOnNextLine: false
+BreakConstructorInitializers: AfterColon
+NamespaceIndentation: All

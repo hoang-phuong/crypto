@@ -4,5 +4,5 @@ project(test_pcrypto CXX)
 
 add_subdirectory(framework)
 
-add_executable(test_pcrypto test_main.cpp test_main.h)
+add_executable(test_pcrypto test_main.cpp test_main.hpp)
 target_link_libraries(test_pcrypto pcrypto framework)
